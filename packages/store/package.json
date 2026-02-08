@@ -1,0 +1,17 @@
+{
+    "name": "@repo/store",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "recoil": "^0.7.7"
+    },
+    "peerDependencies": {
+        "react": "^18.3.0"
+    },
+    "exports": {
+        "./balance": {
+            "types": "./src/hooks/useBalance.ts",
+            "default": "./src/hooks/useBalance.ts"
+        }
+    }
+}
