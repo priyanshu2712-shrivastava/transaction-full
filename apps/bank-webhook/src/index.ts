@@ -1,6 +1,3 @@
-
-
-
 import express from "express";
 import db from "@repo/db/client";
 
